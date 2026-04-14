@@ -7,7 +7,7 @@
 **Project Title:** WebSentinel — AI-Powered Web Testing Platform  
 **Version:** 0.1.0  
 **Language:** Python 3.11+  
-**License:** MIT  
+**License:** AGP License
 
 ---
 
