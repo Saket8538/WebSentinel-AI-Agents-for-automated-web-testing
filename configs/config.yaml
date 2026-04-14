@@ -1,0 +1,74 @@
+# Browser configuration
+browser:
+  headless: false
+  use_test_profile: true
+  test_profile_name: "test_profile"
+  extra_browser_args:
+    - "--disable-blink-features=AutomationControlled"
+
+# Browser context configuration
+context:
+  disable_security: true
+  cookies_file: "auth_data/test_profile/cookies.json"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  permissions:
+    - "clipboard-read"
+    - "clipboard-write"
+  # Set allowed_domains to None to allow all domains
+  # You can use any of these formats:
+  allowed_domains: null  # YAML null
+  # 
+  # Or set specific domains:
+  # allowed_domains:
+  #   - "amazon.com"
+  #   - "google.com"
+  #   - "github.com"
+  #   - "huggingface.co"
+  #   - "outlook.com"
+
+# LLM configuration
+# Auto-detection priority: google (if GOOGLE_API_KEY set) > openai > anthropic > ollama (local)
+llm:
+  # Choose your provider: "google" | "openai" | "anthropic" | "ollama" | "auto"
+  provider: "google"
+  model: "gemini-2.5-flash"
+  temperature: 0.7
+  max_tokens: 1000  # Maximum tokens in response (null = use model default)
+  
+  # Google examples (requires GOOGLE_API_KEY in .env):
+  # provider: "google"
+  # model: "gemini-2.5-flash"
+  
+  # OpenAI examples (requires OPENAI_API_KEY in .env):
+  # provider: "openai"
+  # model: "gpt-4o"              # Latest GPT-4 Omni
+  # model: "gpt-4o-mini"         # Smaller, faster GPT-4 Omni
+  
+  # Anthropic examples (requires ANTHROPIC_API_KEY in .env):
+  # provider: "anthropic"
+  # model: "claude-3-7-sonnet-20250219"  # Latest Claude 3.7 Sonnet
+  # model: "claude-3-5-haiku-20241022"   # Claude 3.5 Haiku (faster)
+  
+  # Ollama examples (local, no API key needed - install from ollama.com):
+  # provider: "ollama"
+  # model: "llama3.2"            # Meta Llama 3.2
+  # model: "mistral"             # Mistral 7B
+  # model: "gemma2"              # Google Gemma 2
+
+# Task configuration
+tasks_file: "task.txt"
+batch_size: 5
+
+# Agent configuration
+agent:
+  max_steps: 25        # Maximum number of steps the agent will take per task
+  max_failures: 3         # Maximum consecutive failures before stopping
+  retry_delay: 10         # Delay in seconds between retries after failures
+  use_vision: true        # Enable screenshot analysis
+  enable_memory: true     # Enable long-term memory
+  max_actions_per_step: 10 # Maximum actions the agent can take in a single step
+
+# Authentication management configuration
+auth_manager:
+  ensure_logged_in: false # Whether to automatically login to services (Google, etc.)
+  save_auth_state: false  # Whether to save authentication state between runs
