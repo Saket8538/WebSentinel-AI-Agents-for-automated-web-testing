@@ -1,5 +1,4 @@
 # WebSentinel-AI-Agents-for-automated-web-testing
-# WebSentinel — AI-Powered Web Testing Platform
 
 ## Comprehensive Project Documentation
 
@@ -8,7 +7,7 @@
 **Project Title:** WebSentinel — AI-Powered Web Testing Platform  
 **Version:** 0.1.0  
 **Language:** Python 3.11+  
-**License:** AGP License
+**License:** Apache License
 
 ---
 
