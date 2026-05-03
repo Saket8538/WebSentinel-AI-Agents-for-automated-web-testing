@@ -1559,7 +1559,7 @@ WebSentinel demonstrates how AI agents can transform web quality assurance from 
 
 ---
 
-## 16. Ownership and Contributions
+## 16. Contributions
 
 ## 🚀 WebSentinel-AI-Agents-for-automated-web-testing
 
@@ -1588,7 +1588,7 @@ If you’re new, look for [good first issues](https://github.com/Saket8538/WebSe
 
 ### 📄 License
 
-This project is licensed under the [https://github.com/Saket8538/WebSentinel-AI-Agents-for-automated-web-testing/blob/main/LICENSE](LICENSE).
+This project is licensed under the [LICENSE](https://github.com/Saket8538/WebSentinel-AI-Agents-for-automated-web-testing/blob/main/LICENSE).
 
 ---
 
