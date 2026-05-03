@@ -72,6 +72,7 @@
 13. [Future Scope](#13-future-scope)
 14. [Conclusion](#14-conclusion)
 15. [References](#15-references)
+16. [Contributions](#16-contributions)
 
 ---
 
@@ -1557,5 +1558,41 @@ WebSentinel demonstrates how AI agents can transform web quality assurance from 
 15. BeautifulSoup Documentation. https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 ---
+## 16. Ownership and Contributions
 
-*Document generated for WebSentinel v0.1.0*
+## 🚀 WebSentinel-AI-Agents-for-automated-web-testing
+
+**Project Owner:** [@Saket8538](https://github.com/Saket8538)  
+**Repository:** [WebSentinel-AI-Agents-for-automated-web-testing](https://github.com/Saket8538/WebSentinel-AI-Agents-for-automated-web-testing)
+
+WebSentinel-AI-Agents-for-automated-web-testing is an AI-driven Python framework for automated web application testing. It leverages tools like Playwright to perform end-to-end, visual, and functional testing, with interactive interfaces provided via Gradio and Streamlit.
+
+---
+
+### 👐 Contributing
+
+We welcome contributions from the open-source community! Whether you're fixing bugs, proposing new features, improving documentation, or providing examples, your input is highly valued.
+
+**How to contribute:**
+1. Fork this repository.
+2. Create a new branch for your changes.
+3. Commit your work and open a pull request with a descriptive message.
+4. Ensure your code follows the project’s style guidelines and passes all tests.
+5. Participate in discussions and review feedback.
+
+**Good First Issues:**  
+If you’re new, look for [good first issues](https://github.com/Saket8538/WebSentinel-AI-Agents-for-automated-web-testing/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue") to get started.
+
+---
+
+### 📄 License
+
+This project is licensed under the [https://github.com/Saket8538/WebSentinel-AI-Agents-for-automated-web-testing/blob/main/LICENSE](LICENSE).
+
+---
+
+**Let’s build reliable, AI-powered web testing solutions—together!**
+
+---
+
+*Document for WebSentinel v0.1.0*
